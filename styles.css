@@ -1,0 +1,77 @@
+h1
+{
+    font-size: 96px;
+    margin-left: 35px;
+}
+nav
+{
+    font-size: 30px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.center
+{
+    text-align: center;
+}
+a
+{
+    display: inline-block;
+    color: lime;
+    margin-right: 40px;
+}
+.nocenter
+{
+    text-align: left;
+}
+p
+{
+    font-size: 50px;
+    margin-left: 30px;
+}
+.float
+{
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.underline
+{
+    text-decoration: underline;
+}
+table
+{
+    text-align: center;
+    width: 100%;
+    justify-content: center;  
+    margin: 10px;    
+    font-size: 30px; 
+    border: 7px black solid;
+    border-radius: 10px;
+}
+h2
+{
+    font-size: 60px;
+    margin-left: 30px;
+}
+td
+{
+    border: black 3px solid;
+    padding-top: 10px;
+}
+.ml
+{
+    margin-left: 400px;
+}
+.ml2
+{
+    margin-left: 200px;
+}
+.divcol
+{
+    background-color: lightgray;
+    display: grid;
+    text-align: center; 
+
+}
