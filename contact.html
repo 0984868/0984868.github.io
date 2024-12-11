@@ -10,6 +10,20 @@
         {
             font-size: 30px;
         }
+        body
+        {
+            align-items: center;
+        }
+        form, label
+        {
+            width: 50%;
+            margin-top: 20px;
+            text-align: center;
+        }
+        div
+        {
+            width: 50%;
+        }
     </style>
 </head>
 <body>
@@ -23,7 +37,7 @@
     <h2 class="center">
    My information: 
 </h2>
-    <div class="center divcol">
+    <div class="center divcol container ml3">
         <h3 class="lbigger">For when you need to call or Email:</h3>
         <h3>
             Phone Number: (###)-###-#### 
@@ -33,5 +47,21 @@
         </h3>
         <h4>(I did not want to post my phone number on here or Email)</h4>
     </div>
+        <form class="container">
+            <fieldset>
+                <label for="fname">First name:
+                <input autofocus required name="fullname" id="fname" placeholder="Enter first name"></label>
+                <label for="lname">Last Name:
+                <input required name="lastname" id="lname" placeholder="Enter last name"></label>
+                <label for="email">Email:
+                <input required type="email" name="email" id="email" placeholder="Email"></label>
+                <label for="phone">Phone Number:
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"></label>
+                <label for="message"> Purpose/Additional information?</label>
+                <textarea id="message" name="message" rows="6" cols="40" placeholder="Type your message here..."></textarea>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+
 </body>
 </html>
